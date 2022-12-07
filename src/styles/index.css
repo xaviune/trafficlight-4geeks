@@ -13,13 +13,14 @@
 .Traffic-light{
     background: black;
     padding: 10px;
-    display: inline-block;
-    margin: auto;
+    margin: 0 auto;
+    width: 120px;
 }
 .light{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin-top: 5px;
 }
 .red{
     background: red;
@@ -32,4 +33,13 @@
 }
 .glow{
     box-shadow: 0px 0px 9px 4px #747DE8;
+}
+.hanger{
+    background: black;
+    width: 10px;
+    height: 40px;
+    margin: 0 auto;
+}
+.Traffic-light-centered{
+    margin: 0 auto;
 }
